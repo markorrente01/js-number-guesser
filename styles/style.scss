@@ -1,0 +1,59 @@
+@use 'color' as c;
+@import 'resets';
+
+html {
+    font-size: 16pt;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+}
+body{
+    min-height: 100vh;
+    display: grid;
+    place-content: center;
+    background-color: c.$card-background;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5rem 1.2rem 2rem 1.2rem;
+    background-color: c.$background-light;
+    border-radius: 8px;
+    box-shadow: c.$box-shadow;
+}
+.heading{
+    margin-bottom: 1rem;
+    color: c.$text-primary;
+}
+p{
+    color: c.$text-secondary;
+}
+form{
+    margin: .8rem 0;
+}
+form input{
+    padding: .8rem 0;
+    padding-left: .4rem;
+    font-size: .9rem;
+    outline: none;
+    border-radius: 7px;
+    color: c.$text-secondary;
+    background-color: c.$input-bg;
+    border:1px solid c.$input-border;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button{
+    margin: 0;
+    -webkit-appearance: none;
+}
+form button{
+    font-size: .9rem;
+    padding: .8rem 1rem;
+    background-color: c.$button-bg;
+    color: c.$button-text;
+    border-radius: 5px;
+    transition: .3s linear;
+
+        &:hover{
+            background-color: c.$button-hover;
+        }
+}
