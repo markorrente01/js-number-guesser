@@ -57,3 +57,23 @@ div button{
             background-color: c.$button-hover;
         }
 }
+@media (max-width: 25rem) /* 400px */{
+    body{
+        place-content: unset;
+    }
+    main{
+        width: 100%;
+    }
+    .heading{
+        font-size: 1.8rem;
+    }
+    p{
+        font-size: .9rem;
+    }
+    div{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: .5rem;
+    }
+}
