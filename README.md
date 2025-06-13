@@ -1,5 +1,5 @@
 ![preview](/images/js-number-guesser%20preview.png)
-# Loan Calculator Built with JS.
+# Number Guesser Built with JS.
 
 ## Contents
 
