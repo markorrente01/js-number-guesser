@@ -27,10 +27,10 @@ main{
 p{
     color: c.$text-secondary;
 }
-form{
+div{
     margin: .8rem 0;
 }
-form input{
+div input{
     padding: .8rem 0;
     padding-left: .4rem;
     font-size: .9rem;
@@ -45,7 +45,7 @@ input[type="number"]::-webkit-outer-spin-button{
     margin: 0;
     -webkit-appearance: none;
 }
-form button{
+div button{
     font-size: .9rem;
     padding: .8rem 1rem;
     background-color: c.$button-bg;
